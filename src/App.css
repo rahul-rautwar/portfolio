@@ -1,6 +1,10 @@
 /* div {
   background-image: url("../src/assets/img/under-construction.jpg");
 } */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --light-blue: #04C3FF;
   --light-blue-shadow: rgb(69 211 255 / 27%);

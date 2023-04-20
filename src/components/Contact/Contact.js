@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import Typical from "react-typical";
+import emailjs from "@emailjs/browser";
 import imgContacts from "../../assets/img/mailz.jpeg";
 import "./Contact.css";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_q0tcdfh",
+        "template_bexzb8k",
+        form.current,
+        "6i-TdtFjSEhcP1ALR"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="main-container">
       <h1
@@ -38,21 +61,24 @@ const Contact = () => {
             <h4>Send Your Email Here!</h4>
             <img src={imgContacts} alt=" not found" />
           </div>
-          <form>
+          <form ref={form} onSubmit={(e) => sendEmail(e)}>
             <label htmlFor="name">Name</label>
-            <input type="text" />
+            <input type="text" name="user_name" required />
 
             <label htmlFor="email">Email</label>
-            <input type="email" />
+            <input type="email" name="user_email" required />
 
             <label htmlFor="message">Message</label>
-            <textarea type="text" />
+            <textarea type="text" name="message" required />
 
             <div className="send-btn">
-              <button type="submit">
+              {/* <button type="submit">
                 Send
                 <i className="fa fa-paper-plane" />
-              </button>
+              </button> */}
+              <input type="submit" className="submit-btn" value="Send">
+                {/* <i className="fa fa-paper-plane" /> */}
+              </input>
             </div>
           </form>
         </div>
