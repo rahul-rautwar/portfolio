@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Header.css";
 import { useState } from "react";
+import { scrollToSection } from "../utils/Helper";
 export const Header = () => {
   const [showHeaderOptions, setShowHeaderOptions] = useState(0);
   const pages = [
@@ -28,6 +29,7 @@ export const Header = () => {
   ];
   return (
     <div
+      id="Home"
       className="header-container"
       onClick={() => setShowHeaderOptions(!showHeaderOptions)}
     >
@@ -57,7 +59,9 @@ export const Header = () => {
               key={page.name}
               className={`header-option header-option-separator `}
             >
-              <span>{page.name}</span>
+              <span onClick={() => scrollToSection(page.name)}>
+                {page.name}
+              </span>
             </div>
           ))}
         </div>
