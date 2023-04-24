@@ -38,7 +38,7 @@ export const Skills = () => {
             <img src={AngularLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://react.dev/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -46,7 +46,7 @@ export const Skills = () => {
             <img src={ReactLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://vuejs.org/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -54,7 +54,7 @@ export const Skills = () => {
             <img src={VueLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -62,7 +62,7 @@ export const Skills = () => {
             <img src={JSLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://www.typescriptlang.org/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -70,7 +70,7 @@ export const Skills = () => {
             <img src={TSLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://redux.js.org/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -78,7 +78,7 @@ export const Skills = () => {
             <img src={ReduxLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://www.w3schools.com/html/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -86,7 +86,7 @@ export const Skills = () => {
             <img src={HtmlLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://www.w3schools.com/css/default.asp"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -94,7 +94,7 @@ export const Skills = () => {
             <img src={CssLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://sass-lang.com/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -102,7 +102,7 @@ export const Skills = () => {
             <img src={SassLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://jestjs.io/docs/getting-started"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -110,7 +110,7 @@ export const Skills = () => {
             <img src={JestLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://git-scm.com/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -118,7 +118,7 @@ export const Skills = () => {
             <img src={GitLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://nodejs.org/en"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -126,7 +126,7 @@ export const Skills = () => {
             <img src={NodeLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://tailwindcss.com/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -134,7 +134,7 @@ export const Skills = () => {
             <img src={TailwindLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://getbootstrap.com/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
@@ -142,7 +142,7 @@ export const Skills = () => {
             <img src={BootstrapLogo} alt={` TypeScript logo`} />
           </a>
           <a
-            href="ss"
+            href="https://stenciljs.com/"
             target="_blank"
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex justify-center flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer"
