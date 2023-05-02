@@ -15,9 +15,6 @@ export const Header = () => {
       name: "AboutMe",
     },
     {
-      name: "Resume",
-    },
-    {
       name: "Skills",
     },
     {
