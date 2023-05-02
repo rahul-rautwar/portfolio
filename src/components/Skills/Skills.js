@@ -35,7 +35,7 @@ export const Skills = () => {
             rel="noreferrer"
             title="Angular"
           >
-            <img src={AngularLogo} alt={` TypeScript logo`} />
+            <img src={AngularLogo} alt={` Angular logo`} />
           </a>
           <a
             href="https://react.dev/"
@@ -43,7 +43,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="React"
           >
-            <img src={ReactLogo} alt={` TypeScript logo`} />
+            <img src={ReactLogo} alt={` React logo`} />
           </a>
           <a
             href="https://vuejs.org/"
@@ -51,7 +51,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="Vue"
           >
-            <img src={VueLogo} alt={` TypeScript logo`} />
+            <img src={VueLogo} alt={` Vue logo`} />
           </a>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -59,7 +59,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="JavaScript"
           >
-            <img src={JSLogo} alt={` TypeScript logo`} />
+            <img src={JSLogo} alt={` JavaScript logo`} />
           </a>
           <a
             href="https://www.typescriptlang.org/"
@@ -75,7 +75,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="Redux"
           >
-            <img src={ReduxLogo} alt={` TypeScript logo`} />
+            <img src={ReduxLogo} alt={` Redux logo`} />
           </a>
           <a
             href="https://www.w3schools.com/html/"
@@ -83,7 +83,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="HTML"
           >
-            <img src={HtmlLogo} alt={` TypeScript logo`} />
+            <img src={HtmlLogo} alt={` HTML logo`} />
           </a>
           <a
             href="https://www.w3schools.com/css/default.asp"
@@ -91,7 +91,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="CSS"
           >
-            <img src={CssLogo} alt={` TypeScript logo`} />
+            <img src={CssLogo} alt={` CSS logo`} />
           </a>
           <a
             href="https://sass-lang.com/"
@@ -99,7 +99,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="SASS"
           >
-            <img src={SassLogo} alt={` TypeScript logo`} />
+            <img src={SassLogo} alt={` SASS logo`} />
           </a>
           <a
             href="https://jestjs.io/docs/getting-started"
@@ -107,7 +107,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="Jest"
           >
-            <img src={JestLogo} alt={` TypeScript logo`} />
+            <img src={JestLogo} alt={` Jest logo`} />
           </a>
           <a
             href="https://git-scm.com/"
@@ -115,7 +115,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="GIT"
           >
-            <img src={GitLogo} alt={` TypeScript logo`} />
+            <img src={GitLogo} alt={` GIT logo`} />
           </a>
           <a
             href="https://nodejs.org/en"
@@ -123,7 +123,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="NodeJs"
           >
-            <img src={NodeLogo} alt={` TypeScript logo`} />
+            <img src={NodeLogo} alt={` NodeJs logo`} />
           </a>
           <a
             href="https://tailwindcss.com/"
@@ -131,7 +131,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="Tailwind"
           >
-            <img src={TailwindLogo} alt={` TypeScript logo`} />
+            <img src={TailwindLogo} alt={` Tailwind logo`} />
           </a>
           <a
             href="https://getbootstrap.com/"
@@ -139,7 +139,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="Bootstrap"
           >
-            <img src={BootstrapLogo} alt={` TypeScript logo`} />
+            <img src={BootstrapLogo} alt={` Bootstrap logo`} />
           </a>
           <a
             href="https://stenciljs.com/"
@@ -147,7 +147,7 @@ export const Skills = () => {
             class="w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex justify-center flex-col sm:m-4 p-6 border-2 hover:shadow-[0_8px_16px_0_rgba(0,0,0,0.2)] transition duration-[0.3s] rounded-[5px]"
             rel="noreferrer" title="StencilJs"
           >
-            <img src={StencilLogo} alt={` TypeScript logo`} />
+            <img src={StencilLogo} alt={` StencilJs logo`} />
           </a>
         </div>
       </div>
