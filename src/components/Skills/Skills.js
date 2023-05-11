@@ -16,17 +16,24 @@ import NodeLogo from "../../assets/img/icons/node.png";
 import TailwindLogo from "../../assets/img/icons/tailwind.png";
 import BootstrapLogo from "../../assets/img/icons/bootstrap.png";
 import StencilLogo from "../../assets/img/icons/stencil.png";
+import { SectionHeading } from "../SectionHeading/SectionHeading";
 
 export const Skills = () => {
   return (
     <div className="py-[75px] sm:py-[100px]">
       <div className="flex flex-col w-full max-w-screen-xl mx-auto px-5">
-        <h1
+        {/* <h1
           id="Skills"
           className="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
         >
           Skills
-        </h1>
+        </h1> */}
+        <div id="Skills">
+          <SectionHeading
+            title={"Skills"}
+            subTitle={"Experties in"}
+          ></SectionHeading>
+        </div>
         <div className="flex flex-wrap justify-center w-full gap-3 sm:gap-0">
           <a
             href="https://angular.io/"

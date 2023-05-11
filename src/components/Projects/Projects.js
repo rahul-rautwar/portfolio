@@ -3,16 +3,23 @@ import React from "react";
 import YouTubeImg from "../../assets/img/projects/youtube.png";
 import FooDVillaImg from "../../assets/img/projects/foodvilla.png";
 import PortfolioImg from "../../assets/img/projects/portfolio.png";
+import { SectionHeading } from "../SectionHeading/SectionHeading";
 
 export const Projects = () => {
   return (
     <div>
-      <h1
+      {/* <h1
         id="Projects"
         className="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
       >
         Projects
-      </h1>
+      </h1> */}
+      <div id="Projects">
+        <SectionHeading
+          title={"Projects"}
+          subTitle={"Showcases Projects"}
+        ></SectionHeading>
+      </div>
       <div class="flex flex-wrap justify-center w-full gap-4">
         <a
           href="notfound"

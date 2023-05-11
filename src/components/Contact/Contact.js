@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import emailjs from "@emailjs/browser";
 import imgContacts from "../../assets/img/mailz.jpeg";
 import "./Contact.css";
+import { SectionHeading } from "../SectionHeading/SectionHeading";
 
 const Contact = () => {
   const form = useRef();
@@ -29,12 +30,18 @@ const Contact = () => {
 
   return (
     <div className="main-container">
-      <h1
+      {/* <h1
         id="ContactMe"
         className="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
       >
         Contact Me
-      </h1>
+      </h1> */}
+      <div id="ContactMe">
+        <SectionHeading
+          title={"Contact Me"}
+          subTitle={"Lets Keep In Touch"}
+        ></SectionHeading>
+      </div>
       <div className="central-form">
         <div className="col">
           <h2 className="title">

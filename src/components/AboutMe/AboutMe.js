@@ -1,15 +1,22 @@
 import React from "react";
 import ProfileImg from "../../assets/img/rahulprofilephoto.jpg";
 import "./AboutMe.css";
+import { SectionHeading } from "../SectionHeading/SectionHeading";
 export const AboutMe = () => {
   return (
     <div className=" py-[75px] sm:py-[100px] mx-auto px-5">
-      <h1
+      {/* <h1
         id="AboutMe"
         className="font-mono mb-4 text-center font-medium text-2xl sm:text-3xl lg:text-4xl"
       >
         About Me
-      </h1>
+      </h1> */}
+      <div id="AboutMe">
+        <SectionHeading
+          title={"About Me"}
+          subTitle={"Why Choose Me?"}
+        ></SectionHeading>
+      </div>
       <div className="row">
         <div className="col-lg-4 mx-auto">
           <img className="profile-img" src={ProfileImg} alt="profile" />
