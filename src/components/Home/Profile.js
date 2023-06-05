@@ -12,16 +12,16 @@ export const Profile = () => {
               <a href="https://github.com/rahul-rautwar">
                 <i className="fa fa-github"></i>
               </a>
-              <a href="https://github.com/rahul-rautwar">
-                <i className="fa fa-facebook-square"></i>
+              <a href="https://www.linkedin.com/in/rahulrautwar/">
+                <i className="fa fa-linkedin-square"></i>
               </a>
-              <a href="https://github.com/rahul-rautwar">
+              <a href="https://www.instagram.com/rahul_rautwar/">
                 <i className="fa fa-instagram"></i>
               </a>
-              <a href="https://github.com/rahul-rautwar">
+              <a href="https://www.youtube.com/user/rahulrautwar">
                 <i className="fa fa-youtube-square"></i>
               </a>
-              <a href="https://github.com/rahul-rautwar">
+              <a href="https://twitter.com/rahul_rautwar">
                 <i className="fa fa-twitter"></i>
               </a>
             </div>
