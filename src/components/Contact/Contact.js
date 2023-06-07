@@ -47,20 +47,20 @@ const Contact = () => {
           <h2 className="title">
             <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
           </h2>{" "}
-          <a href="https://web.facebook.com/">
-            <i className="fa fa-facebook-square" />
+          <a href="https://github.com/rahul-rautwar">
+            <i className="fa fa-github-square" />
           </a>
-          <a href="#">
-            <i className="fa fa-google-plus-square" />
+          <a href="https://www.linkedin.com/in/rahulrautwar/">
+            <i className="fa fa-linkedin-square"></i>
           </a>
-          <a href="https://www.instagram.com/">
-            <i className="fa fa-instagram" />
+          <a href="https://www.instagram.com/rahul_rautwar/">
+            <i className="fa fa-instagram"></i>
           </a>
-          <a href="https://www.youtube.com/">
-            <i className="fa fa-youtube-square" />
+          <a href="https://www.youtube.com/user/rahulrautwar">
+            <i className="fa fa-youtube-square"></i>
           </a>
-          <a href="https://twitter.com/">
-            <i className="fa fa-twitter" />
+          <a href="https://twitter.com/rahul_rautwar">
+            <i className="fa fa-twitter"></i>
           </a>
         </div>
         <div className="back-form">
