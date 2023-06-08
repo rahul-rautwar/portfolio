@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 // import Typical from "react-typical";
 import "./Profile.css";
+import { scrollToSection } from "../utils/Helper";
 export const Profile = () => {
   return (
     <div className="profile-container">
@@ -57,7 +58,12 @@ export const Profile = () => {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">Hire Me!!</button>
+            <button
+              className="btn primary-btn"
+              onClick={() => scrollToSection("ContactMe")}
+            >
+              Hire Me!!
+            </button>
             <a href="Rahul_Rautwar_Resume.pdf" download="Rahul Rautwar Resume">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
