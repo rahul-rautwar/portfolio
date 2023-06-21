@@ -12,7 +12,7 @@ const GithubCalendar = () => {
         ></SectionHeading>
       </div>
       <div class="flex flex-wrap justify-center w-full gap-4">
-        <GitHubCalendar username="rahul-rautwar" />
+        <GitHubCalendar username="rahul-rautwar" year="2023" />
       </div>
     </div>
   );
