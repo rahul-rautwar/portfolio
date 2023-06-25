@@ -22,7 +22,7 @@ export const AboutMe = () => {
           <img className="profile-img" src={ProfileImg} alt="profile" />
         </div>
         <div className="col-lg-6 mx-auto mt-20">
-          I'm Rahul. I'm a Software Engineer by profession and who loves
+          I'm Rahul Rautwar. I'm a Software Engineer by profession and who loves
           Frontend Development
           <br />
           <br /> I build beautifull websites using Frontend technologies.
