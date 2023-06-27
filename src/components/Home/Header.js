@@ -56,7 +56,10 @@ export const Header = () => {
               key={page.name}
               className={`header-option header-option-separator `}
             >
-              <span onClick={() => scrollToSection(page.name)}>
+              <span
+                onClick={() => scrollToSection(page.name)}
+                title={page.name}
+              >
                 {page.name}
               </span>
             </div>
